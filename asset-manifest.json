@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/todo-black-react/static/css/main.500c1330.css",
+    "main.js": "/todo-black-react/static/js/main.97403762.js",
+    "static/js/787.9d2e8e48.chunk.js": "/todo-black-react/static/js/787.9d2e8e48.chunk.js",
+    "static/media/icon-512.png": "/todo-black-react/static/media/icon-512.560ec70039f191d7cd86.png",
+    "index.html": "/todo-black-react/index.html",
+    "static/media/arrow.svg": "/todo-black-react/static/media/arrow.d96fd8c50508738ead754ceedf26cb98.svg",
+    "main.500c1330.css.map": "/todo-black-react/static/css/main.500c1330.css.map",
+    "main.97403762.js.map": "/todo-black-react/static/js/main.97403762.js.map",
+    "787.9d2e8e48.chunk.js.map": "/todo-black-react/static/js/787.9d2e8e48.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.500c1330.css",
+    "static/js/main.97403762.js"
+  ]
+}
