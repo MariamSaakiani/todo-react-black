@@ -1,0 +1,231 @@
+#maindiv{
+   margin: 0px auto;
+    margin-top: 74px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#maindiv .wrapper{
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#maindiv .input-txt-div{
+    margin: 0px auto;
+    position: absolute;
+    width: 578px;
+    height: 59px;
+    background: #38404B;
+    box-shadow: 1px 1px 2px rgba(66, 75, 88, 0.3), 
+                -1px -1px 2px rgba(46, 53, 62, 0.5), 
+                inset -3px 3px 6px rgba(46, 53, 62, 0.2), 
+                inset 3px -3px 6px rgba(46, 53, 62, 0.2), 
+                inset -3px -3px 6px rgba(66, 75, 88, 0.9), 
+                inset 3px 3px 8px rgba(46, 53, 62, 0.9);
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+#maindiv .input-txt-div input{
+    margin-left: 38px;
+    margin-top: 20px;
+    width: 120px;
+    height: 18px;
+    background: none;
+    color: rgba(148, 173, 207, 0.7);
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    border: none;
+}
+
+#maindiv .input-txt-div .enter{
+    width: 25px;
+    height: 25px;
+    margin-top: 17px;
+    margin-right: 10px;
+}
+
+#maindiv .input-txt-div .enter button{
+    border: none;
+    background-color: #38404B;
+}
+
+#maindiv .input-txt-div .enter button:hover{
+    background-color: #204374;
+}
+
+#maindiv .list-item{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 52px;
+    margin: 0px auto;
+    margin-top: 50px;
+    
+}
+
+#maindiv .wrapper #item{
+    margin-top: 50px;
+}
+
+#maindiv .list-item .ts:hover{
+    transform: scale(1.01);
+}
+
+#maindiv .list-item .ts{
+width: 449px;
+height: 59px;
+background: #38404B;
+box-shadow: -5px 5px 10px rgba(48, 54, 64, 0.2),
+            5px -5px 10px rgba(48, 54, 64, 0.2), 
+            -5px -5px 10px rgba(64, 74, 86, 0.9),
+            5px 5px 13px rgba(48, 54, 64, 0.9), 
+            inset 1px 1px 2px rgba(64, 74, 86, 0.3),
+            inset -1px -1px 2px rgba(48, 54, 64, 0.5);
+border-radius: 16px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+gap: 27px;
+transition: transform .2s;
+
+
+}
+
+#maindiv .list-item #list-ts #closeicon{
+    width: 28px;
+    margin-right: 17px;
+    transition: transform .3s;
+    z-index: 100;
+
+}
+#maindiv .list-item #list-ts #closeicon:hover{
+    transform: scale(1.5);
+}
+#maindiv #completeditem .ts{
+background: #38404B;
+box-shadow: 1px 1px 2px rgba(64, 74, 86, 0.3), 
+            -1px -1px 2px rgba(48, 54, 64, 0.5),
+            inset -5px 5px 10px rgba(48, 54, 64, 0.2), 
+            inset 5px -5px 10px rgba(48, 54, 64, 0.2), 
+            inset -5px -5px 10px rgba(64, 74, 86, 0.9), 
+            inset 5px 5px 13px rgba(48, 54, 64, 0.9);
+border-radius: 16px;
+}
+
+#maindiv #completeditem .ts ::before{
+    display: inline-block;
+    content: "";
+    width: 18px;
+    height: 18px;
+    border: 2.5px solid #94ADCF;
+    border-radius: 50%;
+    margin: auto 24px;
+    vertical-align: middle;
+    background: #94ADCF;
+}
+
+/* #maindiv .list-item .ts .list-cont{
+    margin: 19px auto;
+    z-index: 1;
+} */
+
+#maindiv #completeditem .ts .list-cont{
+position: relative;
+font-family: 'Ubuntu';
+font-weight: 500;
+font-size: 18px;
+color: #94ADCF;
+text-decoration-line: line-through;
+}
+
+#maindiv .list-item .ts .list-cont{
+position: relative;
+font-family: 'Ubuntu';
+font-weight: 500;
+font-size: 18px;
+color: #94ADCF;
+}
+
+#maindiv .list-item .ts ::before{
+    display: inline-block;
+    content: "";
+    width: 18px;
+    height: 18px;
+    border: 2.5px solid #94ADCF;
+    border-radius: 50%;
+    margin: auto 24px;
+    vertical-align: middle;
+}
+
+/*  */
+#maindiv .completed-item{
+    margin-top: 52px;
+    margin-right: 800px;
+}
+
+#maindiv .wrapper .list-item .completed {
+  display: none;
+}
+
+#maindiv .wrapper .completed-txt{ 
+font-family: 'Ubuntu';
+font-weight: 400;
+font-size: 28px;
+color: #94ADCF;
+text-align: left;
+margin-top: 52px;
+margin-right: 800px;
+
+}
+
+#maindiv .wrapper #uncompleted{
+    margin-top: 90px;
+}
+
+
+/* phone */
+
+@media (max-width: 720px){
+
+    #maindiv .wrapper {
+    width: 480px;
+    padding: 0px 28px;
+    }
+
+    #maindiv .list-item {
+    width: 450px;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    gap: 52px;
+    margin: 0px auto;
+    margin-top: 50px;
+    flex-direction: column;
+    }
+
+    #maindiv .input-txt-div {
+    width: 378.04px;
+    }
+
+    #maindiv #completeditem .ts {
+    width: 430px;
+    }
+
+    #maindiv .list-item .ts {
+    width: 430px;
+    }
+
+    #maindiv .wrapper .completed-txt {
+        margin-right: 290px;
+    }
+
+}
